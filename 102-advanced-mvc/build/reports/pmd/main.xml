@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2023-11-28T18:15:40.331">
+<file name="C:\Users\zolim\Downloads\oop-lab\lab10\102-advanced-mvc\src\main\java\it\unibo\mvc\Configuration.java">
+<violation beginline="73" endline="73" begincolumn="25" endcolumn="40" rule="RedundantFieldInitializer" ruleset="Performance" package="it.unibo.mvc" class="Configuration$Builder" variable="consumed" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'consumed'
+</violation>
+<violation beginline="79" endline="82" begincolumn="16" endcolumn="9" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Configuration$Builder" method="setMin" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setMin' should not return any type except void linguistically
+</violation>
+<violation beginline="88" endline="91" begincolumn="16" endcolumn="9" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Configuration$Builder" method="setMax" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setMax' should not return any type except void linguistically
+</violation>
+<violation beginline="97" endline="100" begincolumn="16" endcolumn="9" rule="LinguisticNaming" ruleset="Code Style" package="it.unibo.mvc" class="Configuration$Builder" method="setAttempts" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The setter 'setAttempts' should not return any type except void linguistically
+</violation>
+</file>
+<file name="C:\Users\zolim\Downloads\oop-lab\lab10\102-advanced-mvc\src\main\java\it\unibo\mvc\DrawNumberApp.java">
+<violation beginline="46" endline="59" begincolumn="17" endcolumn="17" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="it.unibo.mvc" class="DrawNumberApp" method="DrawNumberApp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="63" endline="63" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="DrawNumberApp" method="DrawNumberApp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+</pmd>

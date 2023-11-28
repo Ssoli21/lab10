@@ -96,6 +96,10 @@ public final class DrawNumberViewImpl implements DrawNumberView {
     }
 
     @Override
+    public void displayError(final String message) {
+        JOptionPane.showMessageDialog(frame, message, "Error Message", JOptionPane.ERROR_MESSAGE);
+    }
+    @Override
     public void result(final DrawResult res) {
         switch (res) {
         case YOURS_HIGH:
